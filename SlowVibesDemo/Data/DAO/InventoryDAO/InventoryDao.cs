@@ -45,7 +45,35 @@ namespace SlowVibesDemo.Data.DAO.InventoryDAO
                 MessageBox.Show("Ocurrio un erro al intentar cargar los datos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
+            connection.Close();
             return salesHistories;
+        }
+
+        public List<string> GetProductSuggestion(string keyword) 
+        {
+            List<string> searchResult = new List<string>();
+
+            cmd = new MySqlCommand("SELECT ProductName FROM product WHERE ProductName LIKE '" + keyword+"' LIMIT 10", connection);
+
+             try
+             {
+                connection.Open();
+                reader = cmd.ExecuteReader();
+
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        searchResult.Add(reader["ProductName"].ToString());
+                    }
+                }
+            }
+             catch (Exception ex)
+             {
+                 MessageBox.Show("Ocurrio un erro al intentar cargar los datos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+             }
+            connection.Close();
+            return searchResult;
         }
     }
 }
