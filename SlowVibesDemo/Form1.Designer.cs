@@ -164,9 +164,9 @@
             // LBsuggestions
             // 
             this.LBsuggestions.FormattingEnabled = true;
-            this.LBsuggestions.Location = new System.Drawing.Point(48, 240);
+            this.LBsuggestions.Location = new System.Drawing.Point(12, 53);
             this.LBsuggestions.Name = "LBsuggestions";
-            this.LBsuggestions.Size = new System.Drawing.Size(668, 95);
+            this.LBsuggestions.Size = new System.Drawing.Size(669, 95);
             this.LBsuggestions.TabIndex = 8;
             // 
             // Form1

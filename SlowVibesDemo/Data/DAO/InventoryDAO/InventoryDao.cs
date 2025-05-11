@@ -53,7 +53,7 @@ namespace SlowVibesDemo.Data.DAO.InventoryDAO
         {
             List<string> searchResult = new List<string>();
 
-            cmd = new MySqlCommand("SELECT ProductName FROM product WHERE ProductName LIKE '" + keyword+"' LIMIT 10", connection);
+            cmd = new MySqlCommand("select ProductName from product where ProductName like '%" + keyword+"%' LIMIT 10", connection);
 
              try
              {
