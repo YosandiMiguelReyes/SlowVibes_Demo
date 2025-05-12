@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SlowVibesDemo.Controller;
 
 namespace SlowVibesDemo
 {
@@ -15,6 +16,7 @@ namespace SlowVibesDemo
         public Precio()
         {
             InitializeComponent();
+            InventoryController controller = new InventoryController(this);
         }
 
         private void button2_Click(object sender, EventArgs e)

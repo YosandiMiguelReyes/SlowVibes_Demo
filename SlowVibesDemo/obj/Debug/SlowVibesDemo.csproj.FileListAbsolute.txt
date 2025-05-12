@@ -47,3 +47,4 @@ C:\Users\PC Central 2\Documents\Yosandi\Apps\SlowVibes Demo\SlowVibesDemo\SlowVi
 C:\Users\PC Central 2\Documents\Yosandi\Apps\SlowVibes Demo\SlowVibesDemo\SlowVibesDemo\obj\Debug\SlowVibe.5FE8146E.Up2Date
 C:\Users\PC Central 2\Documents\Yosandi\Apps\SlowVibes Demo\SlowVibesDemo\SlowVibesDemo\obj\Debug\SlowVibesDemo.exe
 C:\Users\PC Central 2\Documents\Yosandi\Apps\SlowVibes Demo\SlowVibesDemo\SlowVibesDemo\obj\Debug\SlowVibesDemo.pdb
+C:\Users\PC Central 2\Documents\Yosandi\Apps\SlowVibes Demo\SlowVibesDemo\SlowVibesDemo\obj\Debug\SlowVibesDemo.Precio.resources

@@ -75,5 +75,43 @@ namespace SlowVibesDemo.Data.DAO.InventoryDAO
             connection.Close();
             return searchResult;
         }
+
+        public void AddSales(string productName, int price) 
+        {
+            cmd = new MySqlCommand("CALL InsertSalesHistory('"+productName+"',"+price+")", connection);
+            connection.Open();
+            try 
+            {
+                reader = cmd.ExecuteReader(); 
+            }
+            catch (Exception e) 
+            {
+                MessageBox.Show("Ocurrio un error ingresando los datos " + e);
+            }
+            connection.Close();
+        }
+
+        public int GetProductPriceByName(string productName) 
+        {
+            cmd = new MySqlCommand("select SalePrice from product where productName = '" + productName+ "'", connection);
+            int productPrice = 0;
+            connection.Open();
+            try 
+            {
+                reader = cmd.ExecuteReader();
+
+                if (reader.HasRows) 
+                {
+                    productPrice = reader.GetInt32(0);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error obteniendo el precio del producto " + e);
+            }
+
+            connection.Close(); 
+            return productPrice;
+        }   
     }
 }

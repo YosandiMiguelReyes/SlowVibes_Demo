@@ -40,7 +40,7 @@
             this.label1.Location = new System.Drawing.Point(23, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 13);
-            this.label1.TabIndex = 0;
+            this.label1.TabIndex = 4;
             this.label1.Text = "Precio de venta :";
             // 
             // txbPrice
@@ -48,7 +48,7 @@
             this.txbPrice.Location = new System.Drawing.Point(117, 52);
             this.txbPrice.Name = "txbPrice";
             this.txbPrice.Size = new System.Drawing.Size(100, 20);
-            this.txbPrice.TabIndex = 1;
+            this.txbPrice.TabIndex = 0;
             // 
             // btnOk
             // 

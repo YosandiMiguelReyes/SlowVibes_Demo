@@ -3,19 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|c:\\users\\pc central 2\\documents\\yosandi\\apps\\slowvibes demo\\slowvibesdemo\\slowvibesdemo\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|solutionrelative:slowvibesdemo\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|c:\\users\\pc central 2\\documents\\yosandi\\apps\\slowvibes demo\\slowvibesdemo\\slowvibesdemo\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|solutionrelative:slowvibesdemo\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\slowvibesdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|solutionrelative:slowvibesdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|c:\\users\\pc central 2\\documents\\yosandi\\apps\\slowvibes demo\\slowvibesdemo\\slowvibesdemo\\controller\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\slowvibesdemo\\controller\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|solutionrelative:slowvibesdemo\\controller\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,6 +13,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\slowvibesdemo\\data\\dto\\entities\\saleshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|solutionrelative:slowvibesdemo\\data\\dto\\entities\\saleshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\slowvibesdemo\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|solutionrelative:slowvibesdemo\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|c:\\users\\pc central 2\\documents\\yosandi\\apps\\slowvibes demo\\slowvibesdemo\\slowvibesdemo\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|solutionrelative:slowvibesdemo\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|c:\\users\\pc central 2\\documents\\yosandi\\apps\\slowvibes demo\\slowvibesdemo\\slowvibesdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|solutionrelative:slowvibesdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\slowvibesdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A1ECFA4-6EAB-4068-9F01-AF0DDF9EFFE1}|SlowVibesDemo\\SlowVibesDemo.csproj|solutionrelative:slowvibesdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\SlowVibesDemo\\Form1.cs",
+              "RelativeDocumentMoniker": "SlowVibesDemo\\Form1.cs",
+              "ToolTip": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\SlowVibesDemo\\Form1.cs",
+              "RelativeToolTip": "SlowVibesDemo\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T21:22:13.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Precio.cs",
               "DocumentMoniker": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\SlowVibesDemo\\Precio.cs",
               "RelativeDocumentMoniker": "SlowVibesDemo\\Precio.cs",
               "ToolTip": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\SlowVibesDemo\\Precio.cs",
               "RelativeToolTip": "SlowVibesDemo\\Precio.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T22:18:28.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Precio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\SlowVibesDemo\\Precio.cs",
               "RelativeDocumentMoniker": "SlowVibesDemo\\Precio.cs",
@@ -63,33 +80,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\SlowVibesDemo\\Controller\\InventoryController.cs",
               "RelativeDocumentMoniker": "SlowVibesDemo\\Controller\\InventoryController.cs",
               "ToolTip": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\SlowVibesDemo\\Controller\\InventoryController.cs",
               "RelativeToolTip": "SlowVibesDemo\\Controller\\InventoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T01:06:56.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "InventoryDao.cs",
               "DocumentMoniker": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\SlowVibesDemo\\Data\\DAO\\InventoryDAO\\InventoryDao.cs",
               "RelativeDocumentMoniker": "SlowVibesDemo\\Data\\DAO\\InventoryDAO\\InventoryDao.cs",
               "ToolTip": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\SlowVibesDemo\\Data\\DAO\\InventoryDAO\\InventoryDao.cs",
               "RelativeToolTip": "SlowVibesDemo\\Data\\DAO\\InventoryDAO\\InventoryDao.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwDcAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowFEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T23:14:28.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "SalesHistory.cs",
               "DocumentMoniker": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\SlowVibesDemo\\Data\\DTO\\entities\\SalesHistory.cs",
               "RelativeDocumentMoniker": "SlowVibesDemo\\Data\\DTO\\entities\\SalesHistory.cs",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\PC Central 2\\Documents\\Yosandi\\Apps\\SlowVibes Demo\\SlowVibesDemo\\SlowVibesDemo\\Form1.cs",
               "RelativeDocumentMoniker": "SlowVibesDemo\\Form1.cs",

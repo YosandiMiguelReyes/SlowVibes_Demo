@@ -8,20 +8,33 @@ using SlowVibesDemo.Data.DAO.InventoryDAO;
 namespace SlowVibesDemo.Controller
 {
     
-    public class InventoryController
+    public class InventoryController 
     {
+        string productName;
+        int price;
+        Precio PrecioForm;
         Form1 inventory;
         InventoryDao inventoryDao = new InventoryDao();
         public InventoryController(Form1 _inventory) 
         {
             inventory = _inventory;
 
-            #region Event handler
+            #region Event handler inventory
             inventory.btnExit.Click += new EventHandler(Exit);
             inventory.Load += new EventHandler(LoadInventoryHistori);
             inventory.txbSearch.TextChanged += new EventHandler(GetSuggestions);
             inventory.txbSearch.KeyDown += new KeyEventHandler(keydown_SuggestionMovement);
             inventory.LBsuggestions.KeyDown += new KeyEventHandler(SelectSuggestion);
+            #endregion
+
+            //------------------------------------------
+        }
+        public InventoryController(Precio _precio) 
+        {
+            PrecioForm = _precio;
+
+            #region events handler price form
+            PrecioForm.txbPrice.KeyDown += new KeyEventHandler(AddSales);
             #endregion
         }
 
@@ -33,6 +46,16 @@ namespace SlowVibesDemo.Controller
         }
         public void LoadInventoryHistori(object semder, EventArgs args) 
         {
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             inventory.LBsuggestions.Visible = false;
             inventory.dataGridView1.DataSource = inventoryDao.GetSalesHistories();
         }
@@ -66,11 +89,33 @@ namespace SlowVibesDemo.Controller
         {
             if (e.KeyCode == Keys.Enter && inventory.LBsuggestions.Visible == true)
             {
-                inventory.txbSearch.Text = inventory.LBsuggestions.SelectedItem.ToString();
+                productName = inventory.LBsuggestions.SelectedItem.ToString();
                 inventory.txbSearch.Focus(); // Devuelve el foco al TextBox
                 inventory.LBsuggestions.Visible = false;
-                inventory.txbSearch.SelectionStart = inventory.txbSearch.Text.Length; // Coloca el cursor al final;
+                PrecioForm = new Precio();
+                PrecioForm.ShowDialog();
             }
         }
+
+        //---------------------------------------------------------------------------------------------
+                //Precio
+        public void AddSales(object sender, KeyEventArgs e) 
+        {
+            PrecioForm.txbPrice.Text = inventoryDao.GetProductPriceByName(productName).ToString();
+
+            if(e.KeyCode == Keys.Enter) 
+            {
+                if (PrecioForm.txbPrice.Text.Trim() != string.Empty) 
+                {
+                    price = Convert.ToInt32(PrecioForm.txbPrice.Text.ToString());
+                    inventoryDao.AddSales(productName, price);
+                    price = 0;
+                    productName = string.Empty;
+                    PrecioForm.Close();
+                    LoadInventoryHistori(sender, e);
+                }
+            }
+        }
+
     }
 }
