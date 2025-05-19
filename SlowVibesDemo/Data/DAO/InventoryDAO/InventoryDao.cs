@@ -93,16 +93,19 @@ namespace SlowVibesDemo.Data.DAO.InventoryDAO
 
         public int GetProductPriceByName(string productName) 
         {
-            cmd = new MySqlCommand("select SalePrice from product where productName = '" + productName+ "'", connection);
+            cmd = new MySqlCommand("CALL GetPriceByName ('" + productName + "')", connection);
             int productPrice = 0;
-            connection.Open();
             try 
             {
+                connection.Open();
                 reader = cmd.ExecuteReader();
 
                 if (reader.HasRows) 
                 {
-                    productPrice = reader.GetInt32(0);
+                    while (reader.Read())
+                    {
+                         productPrice = reader.GetInt32(0);
+                    }
                 }
             }
             catch (Exception e)

@@ -16,7 +16,7 @@ namespace SlowVibesDemo
         public Precio()
         {
             InitializeComponent();
-            InventoryController controller = new InventoryController(this);
+            AddSaleController controller = new AddSaleController(this);
         }
 
         private void button2_Click(object sender, EventArgs e)

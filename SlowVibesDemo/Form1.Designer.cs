@@ -195,9 +195,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem calculosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem totalSemanalToolStripMenuItem;
@@ -208,6 +205,9 @@
         public System.Windows.Forms.Button button1;
         public System.Windows.Forms.ListBox LBsuggestions;
         public System.Windows.Forms.TextBox txbSearch;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label3;
     }
 }
 

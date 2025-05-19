@@ -107,6 +107,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\AddSaleController.cs" />
     <Compile Include="Controller\InventoryController.cs" />
     <Compile Include="Data\DAO\InventoryDAO\InventoryDao.cs" />
     <Compile Include="Data\DTO\Core\Base.cs" />

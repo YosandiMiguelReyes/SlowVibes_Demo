@@ -7,11 +7,11 @@ using SlowVibesDemo.Data.DAO.InventoryDAO;
 
 namespace SlowVibesDemo.Controller
 {
-    
+
     public class InventoryController 
     {
-        string productName;
-        int price;
+        public static string productName;
+        public static int price;
         Precio PrecioForm;
         Form1 inventory;
         InventoryDao inventoryDao = new InventoryDao();
@@ -29,15 +29,6 @@ namespace SlowVibesDemo.Controller
 
             //------------------------------------------
         }
-        public InventoryController(Precio _precio) 
-        {
-            PrecioForm = _precio;
-
-            #region events handler price form
-            PrecioForm.txbPrice.KeyDown += new KeyEventHandler(AddSales);
-            #endregion
-        }
-
 
 
         public void Exit (object sender, EventArgs e) 
@@ -46,16 +37,7 @@ namespace SlowVibesDemo.Controller
         }
         public void LoadInventoryHistori(object semder, EventArgs args) 
         {
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+
             inventory.LBsuggestions.Visible = false;
             inventory.dataGridView1.DataSource = inventoryDao.GetSalesHistories();
         }
@@ -87,33 +69,17 @@ namespace SlowVibesDemo.Controller
         }
         public void SelectSuggestion(object sender, KeyEventArgs e) 
         {
+
             if (e.KeyCode == Keys.Enter && inventory.LBsuggestions.Visible == true)
             {
                 productName = inventory.LBsuggestions.SelectedItem.ToString();
+                price = inventoryDao.GetProductPriceByName(productName);
                 inventory.txbSearch.Focus(); // Devuelve el foco al TextBox
                 inventory.LBsuggestions.Visible = false;
                 PrecioForm = new Precio();
                 PrecioForm.ShowDialog();
-            }
-        }
 
-        //---------------------------------------------------------------------------------------------
-                //Precio
-        public void AddSales(object sender, KeyEventArgs e) 
-        {
-            PrecioForm.txbPrice.Text = inventoryDao.GetProductPriceByName(productName).ToString();
-
-            if(e.KeyCode == Keys.Enter) 
-            {
-                if (PrecioForm.txbPrice.Text.Trim() != string.Empty) 
-                {
-                    price = Convert.ToInt32(PrecioForm.txbPrice.Text.ToString());
-                    inventoryDao.AddSales(productName, price);
-                    price = 0;
-                    productName = string.Empty;
-                    PrecioForm.Close();
-                    LoadInventoryHistori(sender, e);
-                }
+                
             }
         }
 
